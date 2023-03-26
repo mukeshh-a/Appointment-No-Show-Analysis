@@ -232,7 +232,6 @@ SELECT Scholarship, COUNT(CASE WHEN NoShow = 'Yes' THEN 1 ELSE NULL END)*100.0/C
 FROM healthcare
 GROUP BY Scholarship;
 
-
 -- average age of patients who showed up and who did not show up
 
 SELECT 
@@ -254,8 +253,6 @@ ORDER BY num_appointments DESC;
 SELECT SMSReceived, COUNT(CASE WHEN NoShow = 'No' THEN 1 ELSE NULL END)*100.0/COUNT(*) AS percentage
 FROM healthcare
 GROUP BY SMSReceived;
-
-
 
 -- Proportion of appointments where the patient showed up and had a scholarship by neighbourhood
 
@@ -343,21 +340,3 @@ GROUP BY AppointmentDay,
 CASE WHEN ScheduledDate > AppointmentDate THEN 'Scheduled after' 
 ELSE 'Scheduled before' END
 ORDER BY AppointmentDay;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
