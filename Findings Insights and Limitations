@@ -19,3 +19,10 @@ Based on these findings, some possible suggestions for improving appointment att
 3. Providing education and resources to help patients manage their conditions, especially those with hypertension, diabetes, alcoholism, or disability.
 4. Scheduling appointments at times that are more convenient for patients, such as weekends.
 5. Improving the accuracy and completeness of the data to minimize errors and inconsistencies.
+
+Limitations:
+
+The dataset is limited to one medical center in Brazil, so the findings may not be applicable to other settings or countries.
+The dataset only includes information about appointments made within a specific time period, which may not be representative of appointments made at other times.
+The dataset is based on patient self-report, which may not always be accurate or complete.
+The dataset does not include information about the severity of patients' conditions or the urgency of their appointments.
