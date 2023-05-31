@@ -3,7 +3,7 @@ Performed exploratory data analysis (EDA) on a healthcare dataset using T-SQL qu
 
 This dataset contains information about patients and their appointments in a medical center in Brazil. The dataset includes information such as the patient's age, gender, medical history, and whether or not they attended their scheduled appointment.
 
-Findings:
+## Findings:
 
 1. There were more female patients than male patients in the dataset.
 2. Most patients did not have a scholarship, hypertension, diabetes, alcoholism, or disability.
@@ -17,7 +17,7 @@ Findings:
 10. There were more appointments on weekdays than on weekends, with Wednesday being the most common day for appointments.
 11. There were some appointments where the scheduled date was after the appointment date, which may be due to errors in the data.
 
-Suggestions:
+## Suggestions:
 
 1. Offer discounts or rewards to patients with a scholarship who show up for their appointments.
 2. Send more frequent or personalized SMS notifications to remind patients of their appointments.
@@ -25,7 +25,7 @@ Suggestions:
 4. Schedule appointments at times that are more convenient for patients, such as weekends.
 5. Improve the accuracy and completeness of the data to minimize errors and inconsistencies.
 
-Limitations:
+## Limitations:
 
 1. The dataset is limited to one medical center in Brazil, so the findings may not be applicable to other settings or countries.
 2. The dataset only includes information about appointments made within a specific time period, which may not be representative of appointments made at other times.
